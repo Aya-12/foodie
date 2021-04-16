@@ -11,7 +11,7 @@ class Home extends React.Component {
 
         return (
             <section className="container">
-                <RandomMeal />
+                <RandomMeal history={this.props.history}/>
                 <Category history={this.props.history}/>
                 
             </section>
