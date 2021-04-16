@@ -1,7 +1,7 @@
 import React from 'react'
-import {withRouter} from 'react-router-dom'
+import {withRouter} from 'react-router-dom' // pour trouver les props de header  car il est hors de swetch dans le App.js
 import './header.css'
-
+//la class pour afiche  les category en clickant sur le button
 class Header extends React.Component {
 
     constructor() {
@@ -39,4 +39,4 @@ class Header extends React.Component {
     }
 }
 
-export default withRouter(Header)
+export default withRouter(Header) // pour trouver les props de header  car il est hors de swetch dans le App.js

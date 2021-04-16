@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 
+// la class pour afiche  les category en clickant sur un alphabet "footer" ou sur un meal"plat"
 class Meals extends React.Component {
     
     state = {
