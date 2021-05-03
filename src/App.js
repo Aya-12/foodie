@@ -23,7 +23,7 @@ class App extends React.Component{
                     <Route  path='/Details/:idMeal' component={Details} />
                     <Route  path='/DetailsHasard /:idMeal' component={DetailsHasard } />
                     <Route  path='/Favoris' component={Favoris} />
-                    <Route  path='/search/:str' component={SearchResult} />
+                    <Route  path='/search/:str/:searchBy' component={SearchResult} />
                 </Switch>
                 <Footer />
             </Router>
