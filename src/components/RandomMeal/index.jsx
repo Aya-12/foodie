@@ -23,7 +23,7 @@ class RandomMeal extends React.Component {
 
         let title = (this.state.meal.length === 0) ? "" :  this.state.meal.meals[0].strMeal;
         let imgUrl = (this.state.meal.length === 0) ?  "" : this.state.meal.meals[0].strMealThumb
-        let idMeal = (this.state.meal.length === 0) ? "" : this.state.meal.meals[0].idMeal
+        // let idMeal = (this.state.meal.length === 0) ? "" : this.state.meal.meals[0].idMeal
 
 
         return(
