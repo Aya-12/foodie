@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 
+// la class pour afiche  les category en clickant sur un alphabet "footer" ou sur un meal"plat"
 class Meals extends React.Component {
     
     state = {
@@ -25,13 +26,13 @@ class Meals extends React.Component {
             this.setState({meals});
         }
         
-        //const url = 'www.themealdb.com/api/json/v1/1/filter.php?c=' + category
-        // axios.get('https://www.themealdb.com/api/json/v1/1/filter.php?c=' + category)
-        //   .then(res => {
-        //     const meals = res.data;
-        //     this.setState({meals});
-        //     console.log(res.data)
-        //   })  
+        const url = 'www.themealdb.com/api/json/v1/1/filter.php?c=' + category
+        axios.get('https://www.themealdb.com/api/json/v1/1/filter.php?c=' + category)
+          .then(res => {
+            const meals = res.data;
+            this.setState({meals});
+            console.log(res.data)
+          })  
           
     }
 

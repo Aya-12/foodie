@@ -1,5 +1,5 @@
 import React from 'react'
-import {withRouter} from 'react-router-dom'
+import {withRouter} from 'react-router-dom' // pour trouver les props de header  car il est hors de swetch dans le App.js
 import './footer.css'
 import instagram from './instagram.svg'
 import Facebook from './Facebook.svg'
@@ -37,4 +37,4 @@ class Footer extends React.Component {
     }
 }
 
-export default withRouter(Footer)
+export default withRouter(Footer) // pour trouver les props de header  car il est hors de swetch dans le App.js

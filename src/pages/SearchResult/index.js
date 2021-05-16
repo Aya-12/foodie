@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 
+// la class et la requet pour chercher  on clickant sur le button de search
 class searchresult extends React.Component {
     
     state = {
